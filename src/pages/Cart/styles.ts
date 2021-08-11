@@ -111,3 +111,25 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+
+
+export const EmptyCart = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 40px 0;
+
+  h2, p {
+    color: #c2c2c2;
+  }
+  
+  h2 {
+    font-size: 64px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+`;
